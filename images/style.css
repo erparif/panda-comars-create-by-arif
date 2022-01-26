@@ -20,3 +20,48 @@
     padding: 9px 25px;
     cursor: pointer;
 }
+
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat1{
+    background-image: linear-gradient( to right, rgb(240, 163, 21), rgb(240, 217, 90));
+}
+.cat2{
+    background-image: linear-gradient( to right,  rgb(235, 52, 122), rgb(232, 23, 103) );
+}
+.cat3{
+    background-image: linear-gradient( to right, rgb(74, 74, 238), rgb(35, 35, 233) );
+
+}
+
+.card{
+    border: none;
+    box-shadow: lightgrey 7px 7px 8px;
+    border-radius: 15px;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+    text-align: center;
+}
+
+#subscribe{
+    height: 300px;
+    
+}
+#subscribe h6{
+    color: grey;
+}
+footer{
+    text-align: center;
+    color: grey;
+}
